@@ -11,4 +11,4 @@ install:
   - pip install -q Django==$DJANGO_VERSION
   - pip install -r requirements.txt --use-mirrors
 
-script: python multi_sessions/myLib.py
+script: python myLib.py
